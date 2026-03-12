@@ -61,13 +61,7 @@ The dataset was analyzed to understand transaction patterns and fraud distributi
 
 ## Fraud vs Normal Transactions
 
-![Fraud Distribution](images/fraud_distribution.png)
-
 ## Transaction Amount Distribution
-
-![Transaction Amount](images/amount_distribution.png)
-
-These visualizations highlight the **class imbalance problem** and transaction behavior.
 
 ---
 
@@ -145,8 +139,6 @@ The model was trained using:
 * **batch size = 2048**
 
 Training performance example:
-
-![Training Loss](images/loss_curve.png)
 
 ---
 
@@ -235,3 +227,4 @@ Potential enhancements for the system:
 # 👩‍💻 Author
 
 Developed as part of the **#DataScienceBootcamp Capstone Project**.
+
