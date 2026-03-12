@@ -61,10 +61,6 @@ https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 The dataset was analyzed to understand transaction patterns and fraud distribution.
 
-## Fraud vs Normal Transactions
-
-## Transaction Amount Distribution
-
 ---
 
 # 🧠 Technologies Used
