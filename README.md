@@ -1,5 +1,12 @@
 # 💳 AI Fraud Detection System
 
+![AI Fraud Detection System](images/project_banner.png)
+
+# 💳 AI Fraud Detection System
+
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-DeepLearning-orange)
+
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-DeepLearning-orange)
 ![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
@@ -227,4 +234,5 @@ Potential enhancements for the system:
 # 👩‍💻 Author
 
 Developed as part of the **#DataScienceBootcamp Capstone Project**.
+
 
