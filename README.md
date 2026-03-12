@@ -1,6 +1,6 @@
 # 💳 AI Fraud Detection System
 
-![AI Fraud Detection System](images/project_banner.png)
+![Project Banner](https://raw.githubusercontent.com/peanutpirate/Week_10_Project_AI-Fraud_Detection/images/project_banner.png)
 
 # 💳 AI Fraud Detection System
 
@@ -234,6 +234,7 @@ Potential enhancements for the system:
 # 👩‍💻 Author
 
 Developed as part of the **#DataScienceBootcamp Capstone Project**.
+
 
 
 
