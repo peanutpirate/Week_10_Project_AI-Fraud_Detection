@@ -1,20 +1,36 @@
 # 💳 AI Fraud Detection System
 
-An end-to-end **machine learning system** that detects fraudulent credit card transactions using neural networks and transaction data analysis.
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-DeepLearning-orange)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-This project demonstrates a **real-world financial fraud detection pipeline**, including data preprocessing, exploratory data analysis, model training, and evaluation.
+An end-to-end **Machine Learning system** that detects fraudulent credit card transactions using transaction data and neural networks.
+
+This project demonstrates a **real-world fraud detection pipeline**, including data preprocessing, exploratory data analysis, model training, and evaluation.
+
+---
+
+# 🚀 Project Highlights
+
+✔ Real-world **financial fraud detection problem**
+✔ Handling **highly imbalanced dataset**
+✔ Neural Network model built with **TensorFlow**
+✔ Modular **Machine Learning pipeline**
+✔ Fraud **risk prediction system**
 
 ---
 
 # 🎯 Project Objective
 
-Financial institutions process millions of transactions every day. Detecting fraudulent activity quickly is critical to prevent financial loss.
+Financial institutions process millions of transactions daily. Detecting fraudulent activity quickly is essential to prevent financial loss.
 
-This project builds an **AI-powered fraud detection system** that:
+This project builds an **AI-powered fraud detection system** capable of:
 
-* analyzes transaction data
-* detects suspicious patterns
-* predicts whether a transaction is fraudulent
+* analyzing transaction data
+* detecting suspicious patterns
+* predicting fraudulent transactions
+* generating fraud risk scores
 
 ---
 
@@ -26,16 +42,32 @@ Dataset used:
 
 Source: Kaggle
 
-Dataset size:
+Dataset characteristics:
 
 * **284,807 transactions**
 * **492 fraudulent transactions**
 * Highly **imbalanced dataset**
 
-This makes fraud detection a **challenging real-world machine learning problem**.
+This imbalance makes fraud detection a **challenging machine learning problem**.
 
 Dataset link:
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+---
+
+# 📊 Exploratory Data Analysis
+
+The dataset was analyzed to understand transaction patterns and fraud distribution.
+
+## Fraud vs Normal Transactions
+
+![Fraud Distribution](images/fraud_distribution.png)
+
+## Transaction Amount Distribution
+
+![Transaction Amount](images/amount_distribution.png)
+
+These visualizations highlight the **class imbalance problem** and transaction behavior.
 
 ---
 
@@ -45,8 +77,8 @@ https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 * Pandas
 * NumPy
 * Matplotlib
-* TensorFlow
 * Scikit-learn
+* TensorFlow
 
 ---
 
@@ -74,55 +106,33 @@ requirements.txt
 README.md
 ```
 
-The project is designed using a **modular machine learning pipeline** structure.
-
----
-
-# 🔍 Exploratory Data Analysis
-
-Key analyses performed:
-
-* Fraud vs Normal transaction distribution
-* Transaction amount distribution
-* Dataset imbalance analysis
-* Transaction patterns
-
-Example visualizations include:
-
-* Fraud distribution chart
-* Transaction amount histogram
+The project follows a **modular machine learning pipeline design** to separate responsibilities and improve maintainability.
 
 ---
 
 # 🤖 Machine Learning Model
 
-A **Neural Network** was implemented using TensorFlow.
+A **Neural Network** implemented using TensorFlow.
 
 Model architecture:
 
-```
 Input Layer
 ↓
-Dense (32) - ReLU
+Dense (32) – ReLU
 ↓
-Dense (16) - ReLU
+Dense (16) – ReLU
 ↓
-Dense (8) - ReLU
+Dense (8) – ReLU
 ↓
-Output (Sigmoid)
-```
+Output Layer (Sigmoid)
 
 Loss Function:
 
-```
 Binary Cross Entropy
-```
 
 Optimizer:
 
-```
 Adam
-```
 
 ---
 
@@ -134,42 +144,37 @@ The model was trained using:
 * **10 epochs**
 * **batch size = 2048**
 
-The training process records:
+Training performance example:
 
-* training loss
-* validation loss
-
-These metrics help evaluate model performance.
+![Training Loss](images/loss_curve.png)
 
 ---
 
 # 📊 Model Evaluation
 
-The system evaluates the model using:
+Due to class imbalance, **accuracy alone is not a reliable metric**.
+
+The system evaluates performance using:
 
 * Confusion Matrix
 * Precision
 * Recall
+* F1 Score
 * Classification Report
 
-⚠ In fraud detection problems, **accuracy alone is not reliable** due to class imbalance.
-
-More important metrics:
-
-* **Precision**
-* **Recall**
-* **F1 Score**
+These metrics are essential in fraud detection systems.
 
 ---
 
 # ⚠ Fraud Risk Prediction
 
-The trained model can evaluate new transactions and produce a **fraud risk score**.
+The trained model can evaluate new transactions and generate a **fraud risk score**.
 
 Example output:
 
 ```
 Transaction Amount: $320
+Transaction Time: 18:42
 
 Fraud Risk Score: 0.92
 
@@ -194,7 +199,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Run the system:
+Run the project:
 
 ```
 python main.py
@@ -204,17 +209,18 @@ python main.py
 
 # 📈 Future Improvements
 
-Possible improvements for the system:
+Potential enhancements for the system:
 
-* ROC Curve analysis
+* ROC Curve visualization
 * Precision-Recall curve
 * SMOTE for class imbalance handling
 * Feature importance analysis
-* Fraud risk scoring dashboard
+* Fraud detection dashboard
+* Real-time transaction monitoring
 
 ---
 
-# 🏆 Resume Project Description
+# 🏆 Resume Description
 
 **AI Fraud Detection System**
 
@@ -228,4 +234,4 @@ Possible improvements for the system:
 
 # 👩‍💻 Author
 
-Data Science project developed as part of the Data Science Bootcamp w Gokce Cevik
+Developed as part of the **#DataScienceBootcamp Capstone Project**.
