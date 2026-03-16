@@ -1,6 +1,6 @@
 # 💳 AI Fraud Detection System
 
-![Project Banner](https://raw.githubusercontent.com/peanutpirate/Week_10_Project_AI-Fraud_Detection/images/project_banner.png)
+![Project Banner](project_banner.png)
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-DeepLearning-orange)
