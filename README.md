@@ -1,6 +1,6 @@
 # 💳 AI Fraud Detection System
 
-![Project Banner]([[project_banner.png](https://github.com/peanutpirate/AI_City_Traffic_Intelligence_System/blob/8059ac2631db3fc6c1d066f4ecc295710
+![Project Banner](https://raw.githubusercontent.com/peanutpirate/Week_10_Project_AI-Fraud_Detection/images/project_banner.png)
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-DeepLearning-orange)
